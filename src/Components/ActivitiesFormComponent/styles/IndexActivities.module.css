@@ -1,0 +1,23 @@
+.indexActivitiesFormContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
+  min-width: 630px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.indexActivitiesFormContainer input {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.ActivitiesIndexAndButton {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+

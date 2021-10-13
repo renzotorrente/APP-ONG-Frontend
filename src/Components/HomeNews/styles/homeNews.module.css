@@ -1,0 +1,14 @@
+.img {
+  height: 200px;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.textStyle {
+  color: black;
+  /* padding: 15px 15px 0px 15px;
+  text-align: center; */
+}

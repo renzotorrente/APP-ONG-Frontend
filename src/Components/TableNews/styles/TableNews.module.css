@@ -1,0 +1,9 @@
+.d-md-tablecell {
+    display: none
+}
+
+@media (min-width: 720px) {
+    .d-md-tablecell {
+        display: table-cell
+    }
+}

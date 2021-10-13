@@ -1,0 +1,32 @@
+.upload_btn_wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    }
+    .upload_btn_wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    }
+    .boton_standar_rw{
+    margin: 4px;
+    background-color: white;
+    color: #008080;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 10px;
+    border: 2px solid #008080;
+    transition: all 0.3s ease 0s;
+    width: 11em;
+    padding: 10px;
+    cursor:pointer !important;
+    
+    }
+    
+    .ck_editor__editable {
+        max-height: 400px;
+        max-width: 500px;
+    }

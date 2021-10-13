@@ -1,0 +1,77 @@
+.formEditOptions {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  max-width: 450px;
+  border-radius: 8px;
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fromEditHomeButtonCancel {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  display: none;
+}
+
+.fromEditHomeButtonGroup {
+  display: flex;
+  flex-direction: column;
+}
+.fromEditHomeButtonGroup button {
+  margin-top: 15px;
+}
+.fromEditHomeButtonGroupReset button:last-child {
+  right: 0;
+  margin-left: 15px;
+}
+
+@media (max-width: 980px) {
+  .hidden {
+    display: none;
+  }
+  .formEditOptions {
+    position: absolute;
+    background: white;
+    right: 0;
+    min-height: 400px;
+    margin-right: 0;
+  }
+  .fromEditHomeButtonCancel {
+    display: flex;
+  }
+}
+
+.slideInRight {
+  -webkit-animation: slideInRight 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: slideInRight 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

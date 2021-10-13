@@ -1,0 +1,36 @@
+.boxStyle {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textStyle {
+  padding: 15px 15px 0px 15px;
+  color: black;
+  text-align: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+.TestEditSliderHomeContainer {
+  position: relative;
+  width: 100%;
+}
+
+.ContinaerMobileButtons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.ContinaerMobileButtons button {
+  margin-left: 20px;
+}
+
+@media (min-width: 981px) {
+  .ContinaerMobileButtons button:last-child {
+    display: none;
+  }
+}

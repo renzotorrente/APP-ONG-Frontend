@@ -1,0 +1,22 @@
+.boxStyle {
+  height: 487px;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.textStyle {
+  padding: 15px 15px 0px 15px;
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+@media (min-width: 769px) { 
+  .boxStyle {
+    height: 700px;
+  }
+ }

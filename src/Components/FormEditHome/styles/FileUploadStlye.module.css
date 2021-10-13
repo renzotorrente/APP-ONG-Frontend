@@ -1,0 +1,12 @@
+.fileUploadContainer {
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
+}
+.fileUploadContainer button {
+  margin-right: 10px;
+}
+.fileUploadContainer p{
+    color: red;
+    font-size: 13px;
+}

@@ -1,0 +1,8 @@
+{
+  "email_placeholder": "Ingrese su email",
+  "email_error_required": "Debe ingresar su dirección de email",
+  "email_error_pattern": "Debe ingresar un email válido",
+  "password_placeholder": "Ingrese su contraseña",
+  "password_error_minLenght": "La contraseña ingresada es demasiado corta",
+  "password_error_required": "Debe ingresar su contraseña"
+}

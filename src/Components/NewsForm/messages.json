@@ -1,0 +1,9 @@
+{
+  "title_placeholder": "Ingrese el título de la novedad",
+  "title_error_required": "Debe asignarle un título a la novedad!",
+  "img_placeholder": "Ingrese URL de la imagen",
+  "img_error_required": "Debe ingresar el URL de una imágen!",
+  "password_placeholder": "Ingrese su contraseña",
+  "password_error_minLenght": "La contraseña ingresada es demasiado corta",
+  "password_error_required": "Debe ingresar su contraseña"
+}

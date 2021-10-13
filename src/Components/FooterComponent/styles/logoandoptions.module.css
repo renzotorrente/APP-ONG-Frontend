@@ -1,0 +1,36 @@
+.logoAndOptionsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px black solid;
+  width: 90%;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.logoAndOptionsOptions {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.logoAndOptionsLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+@media (max-width: 980px) {
+  .flexDirection {
+    flex-direction: column;
+  }
+  .flexDirection a {
+      margin-bottom: 20px;
+  }
+  .logoAndOptionsLogo {
+    order: 3;
+  }
+}

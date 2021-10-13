@@ -1,0 +1,6 @@
+.formEditHomeContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  min-width: 300px;
+}

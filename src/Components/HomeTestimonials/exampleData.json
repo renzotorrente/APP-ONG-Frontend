@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Novedad A",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "imageUrl": "https://images.unsplash.com/photo-1621255457330-7ef4e88ec27f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Novedad B",
+    "text": "Ut consectetur efficitur est nec bibendum. Sed at tempor justo. Proin pretium ac est et ullamcorper. Curabitur rutrum cursus leo, nec faucibus eros finibus quis. ",
+    "imageUrl": "https://images.freeimages.com/images/large-previews/da4/caffee-9-1500877.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Novedad C",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "imageUrl": "https://images.freeimages.com/images/large-previews/ef4/colorful-building-2-1174839.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Novedad D",
+    "text": "Ut consectetur efficitur est nec bibendum. Sed at tempor justo. Proin pretium ac est et ullamcorper. Curabitur rutrum cursus leo, nec faucibus eros finibus quis. ",
+    "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+  }
+]
